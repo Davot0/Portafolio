@@ -213,6 +213,8 @@ https://en.bem.info/methodology/quick-start/*/
 .academic__courses{
     display: flex;
     justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
 }
 
 .academic__courses__box{
@@ -225,6 +227,11 @@ https://en.bem.info/methodology/quick-start/*/
 .academic__courses__list{
     padding-left:0;
     font-size: 20px;
+}
+
+.academic__courses__item__img img{
+    height: 120px;
+    width: 140px;
 }
 
 /* experiencia*/
